@@ -1,0 +1,67 @@
+- [x] Try cursor 📅 2024-09-11 ✅ 2024-09-11
+- [x] High-conductance paper 📅 2024-09-11 ✅ 2024-09-11
+- [x] Clear Zotero unread papers 📅 2024-09-22 ✅ 2024-10-22
+- [x] Slides for qual pre ⏫ 📅 2024-09-15 ✅ 2024-09-17
+	- [x] Take away slide ✅ 2024-09-17
+	- [x] Progress bar ✅ 2024-09-11
+	- [x] Future work / integrative slide ✅ 2024-09-17
+- [x] Poster template ⏫ 📅 2024-09-27 ✅ 2024-09-30
+	- [x] draft 📅 2024-09-26 ✅ 2024-10-22
+- [ ] NEURON speed-up
+	- [x] coreNEURON 🛫 2024-09-13 ✅ 2024-10-29
+	- [ ] DHS🛫 2024-09-13 
+- [ ] Empirical work supporting synaptic connection to L5 cell 📅 2024-09-15 
+	- [ ] FF (drive/sensory related)
+	- [ ] FB (context-related)
+- [x] Further simulation 📅 2024-09-27 ✅ 2024-11-04
+	- [x] Sigmoid fitting to AP curve ✅ 2024-10-22
+	- [x] Run full simu with 0-4 ✅ 2024-09-23
+	- [x] Save the analysis results locally for time saving 📅 2024-09-24 ✅ 2024-09-25
+	- [x] Updated visualization 📅 2024-09-26 ✅ 2024-09-30
+		- [x] NMDA prob 📅 2024-09-26 ✅ 2024-09-26
+		- [x] Ca2+ prob 📅 2024-09-26 ✅ 2024-09-26
+		- [x] Soma AP 📅 2024-09-26 ✅ 2024-09-26
+		- [x] Thres regenerate 📅 2024-09-26 ✅ 2024-09-26
+		- [x] Exam regenrate 📅 2024-09-26 ✅ 2024-09-26
+- [ ] Watch manifolds course (youtube) 
+- [x] Name list for thesis committee 📅 2024-10-24 ✅ 2024-10-24
+- [x] Final project for BIOL 635 📅 2024-10-28 ✅ 2024-10-29
+- [x] Distance analysis 📅 2024-10-25 ✅ 2024-10-29
+- [ ] Define sub/supra linear summation 📅 2024-10-31
+	- [x] how do ppl define linear sum EPSP 📅 2024-10-29 ✅ 2024-11-18
+	- [ ] basal vs apical
+	- [x] clustered vs dispersed ✅ 2024-11-18
+	- [ ] vitro vs vivo (8 combinations)
+- [x] Check num of clus to generate APs 📅 2024-10-29 ✅ 2024-11-04
+	- [x] 1 clus with 80: not sufficient ✅ 2024-10-28
+	- [x] 2 ✅ 2024-10-29
+	- [x] 3 ✅ 2024-11-18
+	- [x] 4 ✅ 2024-11-18
+	- [x] 5 clus: enough ✅ 2024-10-28
+- [x] Test whether coreNeuron speed up on Mac 📅 2024-10-29 ✅ 2024-10-29
+	- no difference (neuron_reduce: both cases are 20s)
+- [ ] Install NEURON on Mac 📅 2024-10-29 
+- [x] visualize the voltage and synapse assignment (at 40 preunits) 📅 2024-11-03 ✅ 2024-11-04
+	- [x] plotShape ✅ 2024-10-31
+	- [x] choose the timepoint 2ms before APs of the case with lower thres (clus vs distr) ✅ 2024-11-04
+		- [x] build an array: shape: (n_segs, n_timesteps, num_aff_fibers, num_trials) (642 * 40001 * 41 * 1) ✅ 2024-11-04
+		- choose the time to be able to see the activation at both dendrites and soma
+- [x] Why dispersed case show threshold of AP generation early?? ✅ 2024-11-04
+	- Don't do order anymore, do distance
+- [x] Distance bins 📅 2024-11-05 ✅ 2024-11-08
+	- [x] Draw CDF (num-dist, choose the distance at num 0, 2k, 4k ...)(total_num of exc_syn in basal is around 10k, and we need to know the num for apical_tuft) ✅ 2024-11-11
+	- [x] Plotly for plotshape visualization (save it as pdf and reopen it through html) 📅 2024-11-11 ✅ 2024-11-18
+- [ ] Prepare 'aim three' slide 📅 2024-11-08
+- [x] Talk with Season about the data 📅 2024-11-08 ✅ 2024-11-18
+- [x] NJIT project code running 📅 2024-11-08 ✅ 2024-11-18
+- [x] Rerun dispersed case with different seed for assignment 📅 2024-11-19 ✅ 2024-11-19
+- [x] Combine basal range 0 clus folders 📅 2024-11-19 ✅ 2024-11-19
+- [ ] Test shunting in basal📅 2024-11-19 
+- [x] Run simulation in vitro apical 📅 2024-11-24 ✅ 2024-12-13
+	- [x] Set conductance of Ca_LVA HVA to be 0 only around the nexus 📅 2024-11-19 ✅ 2024-12-13
+- [x] Reset params (firing rate) for in vivo 📅 2024-11-20 ✅ 2024-12-13
+- [x] Run simulation in vivo basal 📅 2024-11-24 ✅ 2024-12-13
+- [ ] Prepare for the BP journal club presentation ⏳ 2025-01-20
+- [x] Rerun apical simulation with Ih invitro 📅 2024-11-28 ✅ 2024-12-13
+- [x] Send all matrices to Drew 📅 2024-11-28 ✅ 2024-12-13
+- [ ] Read Biophys Comp 4.2.1 
